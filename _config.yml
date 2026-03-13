@@ -1,0 +1,18 @@
+title: "Nombre de la Materia"
+description: "Descripción breve de la materia"
+remote_theme: just-the-docs/just-the-docs
+
+url: "https://agustdiez.github.io/intro-datos/"
+baseurl: "/intro-datos"
+
+search_enabled: true
+nav_sort: case_insensitive
+
+gh_edit_link: true
+gh_edit_link_text: "Editar esta página"
+gh_edit_repository: "https://github.com/agustdiez/intro-datos/"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "edit"
+
+footer_content: "Nombre de la Materia — Facultad"
