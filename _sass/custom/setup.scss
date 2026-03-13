@@ -1,0 +1,114 @@
+// =============================================================================
+// Just the Docs — Paleta Verde Azulada (Teal)
+// Reemplaza el violeta característico del tema por defecto
+// Ubicación: _sass/custom/setup.scss
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Variables SCSS (afectan componentes compilados)
+// -----------------------------------------------------------------------------
+
+$link-color:          #0d9488;   // teal-600
+$btn-primary-color:   #ffffff;
+$body-font-family:    system-ui, -apple-system, sans-serif;
+
+// Colores base de la paleta teal
+$teal-50:   #f0fdfa;
+$teal-100:  #ccfbf1;
+$teal-200:  #99f6e4;
+$teal-300:  #5eead4;
+$teal-400:  #2dd4bf;
+$teal-500:  #14b8a6;
+$teal-600:  #0d9488;
+$teal-700:  #0f766e;
+$teal-800:  #115e59;
+$teal-900:  #134e4a;
+
+// -----------------------------------------------------------------------------
+// CSS Custom Properties — modo claro
+// -----------------------------------------------------------------------------
+
+:root {
+  // Fondo y texto general
+  --body-background-color:        #{$teal-50};
+  --body-text-color:              #1e293b;
+  --body-heading-color:           #{$teal-900};
+
+  // Sidebar
+  --sidebar-color:                #{$teal-900};
+  --nav-child-link-color:         #{$teal-200};
+
+  // Links
+  --link-color:                   #{$teal-600};
+  --link-color-visited:           #{$teal-800};
+
+  // Botones primarios
+  --clr-btn-primary-bg:           #{$teal-600};
+  --clr-btn-primary-bg-hover:     #{$teal-700};
+  --clr-btn-primary-color:        #ffffff;
+
+  // Headings
+  --clr-heading:                  #{$teal-800};
+
+  // Bordes y separadores
+  --border-color:                 #{$teal-200};
+  --table-border-color:           #{$teal-200};
+
+  // Código inline
+  --code-background-color:        #{$teal-100};
+  --code-text-color:              #{$teal-900};
+
+  // Bloques de código
+  --pre-background-color:         #{$teal-900};
+  --pre-text-color:               #{$teal-50};
+
+  // Búsqueda
+  --search-background-color:      #ffffff;
+  --search-result-preview-color:  #475569;
+
+  // Resaltado activo en navegación
+  --nav-active-bg:                #{$teal-700};
+  --nav-active-color:             #ffffff;
+
+  // Badges / etiquetas
+  --label-blue-bg:                #{$teal-500};
+  --label-blue-color:             #ffffff;
+}
+
+// -----------------------------------------------------------------------------
+// CSS Custom Properties — modo oscuro
+// -----------------------------------------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background-color:      #0f2027;
+    --body-text-color:            #{$teal-100};
+    --body-heading-color:         #{$teal-300};
+
+    --sidebar-color:              #0a1a18;
+    --nav-child-link-color:       #{$teal-300};
+
+    --link-color:                 #{$teal-400};
+    --link-color-visited:         #{$teal-300};
+
+    --clr-btn-primary-bg:         #{$teal-500};
+    --clr-btn-primary-bg-hover:   #{$teal-400};
+
+    --clr-heading:                #{$teal-300};
+
+    --border-color:               #{$teal-800};
+    --table-border-color:         #{$teal-800};
+
+    --code-background-color:      #1a3a36;
+    --code-text-color:            #{$teal-200};
+
+    --pre-background-color:       #061413;
+    --pre-text-color:             #{$teal-100};
+
+    --search-background-color:    #1a3a36;
+    --search-result-preview-color:#{$teal-300};
+
+    --nav-active-bg:              #{$teal-600};
+    --nav-active-color:           #ffffff;
+  }
+}
