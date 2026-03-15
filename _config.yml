@@ -1,8 +1,8 @@
-title: "Nombre de la Materia"
-description: "Descripción breve de la materia"
+title: "Introducción a la Ciencia de Datos"
+description: "CB050 - Cátedra Lagos"
 theme: just-the-docs
 
-url: "https://agustdiez.github.io/intro-datos/"
+url: "https://agustdiez.github.io"
 baseurl: "/intro-datos"
 
 search_enabled: true
@@ -15,4 +15,4 @@ gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "edit"
 
-footer_content: "Nombre de la Materia — Facultad"
+footer_content: "Introducción a la Ciencia de Datos(CB050) — FIUBA"
