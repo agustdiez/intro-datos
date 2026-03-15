@@ -1,6 +1,6 @@
 title: "Nombre de la Materia"
 description: "Descripción breve de la materia"
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 url: "https://agustdiez.github.io/intro-datos/"
 baseurl: "/intro-datos"
