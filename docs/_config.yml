@@ -1,0 +1,62 @@
+
+# Configuración del sitio GitHub Pages
+title: "CB050 - INTRO A DATOS"
+description: "Introducción a la ciencia de datos - Cátedra Lagos"
+# O cualquier theme de GitHub
+remote_theme: just-the-docs/just-the-docs
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "img/logos/materia_logo.png"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/img/logos/favicon.png"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
+toc:
+  min_level: 1  # Desde H1 (#)
+  max_level: 3  # Hasta H3 (###)
+
+mermaid:
+  enable: true
+  version: "10.6.1"
+
+# Configuración opcional
+show_downloads: false
+google_analytics: # Tu código GA si lo necesitas
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: nil  # nil permite que el usuario elija
+
+# Habilitar el selector de tema en el UI
+# Permite cambiar entre light/dark
+aux_links_new_tab: false
+
+# callouts
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Importante
+    color: blue
+  new:
+    title: Nuevo
+    color: green
+  note:
+    title: Nota
+    color: purple
+  warning:
+    title: Cuidado!
+    color: red
