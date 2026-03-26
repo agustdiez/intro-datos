@@ -1,65 +1,198 @@
 {"0": {
-    "doc": "Notebooks",
-    "title": "Notebooks",
-    "content": "Todos los notebooks disponibles para descargar o abrir directamente en Colab. Reemplazá ORG/REPO en los links de Colab con el usuario y nombre real del repositorio. | Unidad | Notebook | Colab | . | Introducción a Python | ⬇ Descargar | | . | EDA | ⬇ Descargar | | . | Preprocesamiento | ⬇ Descargar | | . | Aprendizaje Estadístico | ⬇ Descargar | | . | Supervisado | ⬇ Descargar | | . | No Supervisado | ⬇ Descargar | | . | Redes Neuronales | ⬇ Descargar | | . | Visualización | ⬇ Descargar | | . ",
-    "url": "/intro-datos/docs/notebooks/",
-    
-    "relUrl": "/docs/notebooks/"
-  },"1": {
-    "doc": "Inicio",
-    "title": "Nombre de la Materia",
-    "content": "Bienvenidos al sitio de la materia. Encontrarán todo el material organizado por unidad temática. ",
-    "url": "/intro-datos/docs/#nombre-de-la-materia",
-    
-    "relUrl": "/docs/#nombre-de-la-materia"
-  },"2": {
-    "doc": "Inicio",
-    "title": "Contenidos",
-    "content": "| Unidad | Descripción | . | Introducción a Python | Entorno, sintaxis, estructuras de datos | . | EDA | Análisis exploratorio de datos | . | Preprocesamiento | Limpieza y transformación | . | Aprendizaje Estadístico | Fundamentos teóricos | . | Supervisado | Clasificación y regresión | . | No Supervisado | Clustering, reducción de dimensionalidad | . | Redes Neuronales | Deep learning básico | . | Visualización | Matplotlib, Seaborn, Plotly | . | Notebooks | Todos los notebooks descargables | . | Bibliografía | Material de referencia | . | Info de la Materia | Programa, cronograma, contacto | . ",
-    "url": "/intro-datos/docs/#contenidos",
-    
-    "relUrl": "/docs/#contenidos"
-  },"3": {
-    "doc": "Inicio",
-    "title": "Cursadas anteriores",
-    "content": ". | 2025 — 1er cuatrimestre | 2025 — 2do cuatrimestre | . ",
-    "url": "/intro-datos/docs/#cursadas-anteriores",
-    
-    "relUrl": "/docs/#cursadas-anteriores"
-  },"4": {
-    "doc": "Inicio",
-    "title": "Inicio",
+    "doc": "Intro a Python",
+    "title": "Intro a Python",
     "content": " ",
-    "url": "/intro-datos/docs/",
+    "url": "/intro-datos/docs/prob_estadistica/aplicacion_p_valor.html",
     
-    "relUrl": "/docs/"
-  },"5": {
+    "relUrl": "/docs/prob_estadistica/aplicacion_p_valor.html"
+  },"1": {
+    "doc": "Introducción a Python",
+    "title": "Introducción a Python",
+    "content": ". ↑ Volver al índice.{: .btn .btn-outline } . ",
+    "url": "/intro-datos/docs/introduccion_python/",
+    
+    "relUrl": "/docs/introduccion_python/"
+  },"2": {
+    "doc": "Conceptos de probabilidad y estadística",
+    "title": "Introducción a probabilidad y estadística",
+    "content": ". ↑ Volver al índice . ",
+    "url": "/intro-datos/docs/prob_estadistica/#introducci%C3%B3n-a-probabilidad-y-estad%C3%ADstica",
+    
+    "relUrl": "/docs/prob_estadistica/#introducción-a-probabilidad-y-estadística"
+  },"3": {
+    "doc": "Conceptos de probabilidad y estadística",
+    "title": "Conceptos de probabilidad y estadística",
+    "content": " ",
+    "url": "/intro-datos/docs/prob_estadistica/",
+    
+    "relUrl": "/docs/prob_estadistica/"
+  },"4": {
     "doc": "Bibliografía",
     "title": "Bibliografía",
     "content": " ",
     "url": "/intro-datos/docs/bibliografia/",
     
     "relUrl": "/docs/bibliografia/"
-  },"6": {
+  },"5": {
     "doc": "Bibliografía",
     "title": "Principal",
     "content": ". | An Introduction to Statistical Learning — James, Witten, Hastie, Tibshirani. PDF gratuito | The Elements of Statistical Learning — Hastie, Tibshirani, Friedman. PDF gratuito | Python Data Science Handbook — VanderPlas. Online gratuito | . ",
     "url": "/intro-datos/docs/bibliografia/#principal",
     
     "relUrl": "/docs/bibliografia/#principal"
-  },"7": {
+  },"6": {
     "doc": "Bibliografía",
     "title": "Complementaria",
     "content": ". | Hands-On Machine Learning — Géron. | Deep Learning — Goodfellow, Bengio, Courville. PDF gratuito | . ",
     "url": "/intro-datos/docs/bibliografia/#complementaria",
     
     "relUrl": "/docs/bibliografia/#complementaria"
-  },"8": {
+  },"7": {
     "doc": "Bibliografía",
     "title": "Recursos online",
     "content": "| Recurso | Descripción | . | Scikit-learn docs | Documentación oficial | . | Pandas docs | Documentación oficial | . | Kaggle Learn | Cursos gratuitos interactivos | . ",
     "url": "/intro-datos/docs/bibliografia/#recursos-online",
     
     "relUrl": "/docs/bibliografia/#recursos-online"
+  },"8": {
+    "doc": "Notebooks",
+    "title": "Notebooks",
+    "content": "Todos los notebooks disponibles para descargar o abrir directamente en Colab. Reemplazá ORG/REPO en los links de Colab con el usuario y nombre real del repositorio. | Unidad | Notebook | Colab | . | Introducción a Python | ⬇ Descargar | | . | EDA | ⬇ Descargar | | . | Preprocesamiento | ⬇ Descargar | | . | Aprendizaje Estadístico | ⬇ Descargar | | . | Supervisado | ⬇ Descargar | | . | No Supervisado | ⬇ Descargar | | . | Redes Neuronales | ⬇ Descargar | | . | Visualización | ⬇ Descargar | | . ",
+    "url": "/intro-datos/docs/notebooks/",
+    
+    "relUrl": "/docs/notebooks/"
+  },"9": {
+    "doc": "Inicio",
+    "title": "Introducción a la ciencia de datos - CB050",
+    "content": "Bienvenidos al sitio de la materia. El portal es de uso exclusivo para la cátedra Lagos de la materia. Todos los contenidos dados en el sitio son de lectura obligatoria para los exámenes de la materia, y buscan abordar temas que desde un entorno tipo Jupyter Notebook resulta engorroso. ",
+    "url": "/intro-datos/#introducci%C3%B3n-a-la-ciencia-de-datos---cb050",
+    
+    "relUrl": "/#introducción-a-la-ciencia-de-datos---cb050"
+  },"10": {
+    "doc": "Inicio",
+    "title": "Contenidos",
+    "content": "| Unidad | Descripción | . | Introducción a Python | Entorno, sintaxis, estructuras de datos | . | Introducción a probabilidad y estadística | Introduccion a probabilidad y estadística | . | EDA | Análisis exploratorio de datos | . | Preprocesamiento | Limpieza y transformación | . | Aprendizaje Estadístico | Fundamentos teóricos | . | Supervisado | Clasificación y regresión | . | No Supervisado | Clustering, reducción de dimensionalidad | . | Redes Neuronales | Deep learning básico | . | Visualización | Matplotlib, Seaborn, Plotly | . ",
+    "url": "/intro-datos/#contenidos",
+    
+    "relUrl": "/#contenidos"
+  },"11": {
+    "doc": "Inicio",
+    "title": "Plantel docente",
+    "content": "| Docente | Cargo | . | Marina Lagos | Profesora adjunta | . | Agustín Diez | JTP | . | Lucas Trevisani | Ayudante | . Todas las consultas deben dirigirse al correo de la materia o vía Slack . introcienciadedatos.fiuba@gmail.com . ",
+    "url": "/intro-datos/#plantel-docente",
+    
+    "relUrl": "/#plantel-docente"
+  },"12": {
+    "doc": "Inicio",
+    "title": "Material de cursada",
+    "content": "| Contenido | Descripción |——–|————-| Notebooks | Todos los notebooks descargables | Bibliografía | Material de referencia | Info de la Materia | Programa y cronograma| . ",
+    "url": "/intro-datos/#material-de-cursada",
+    
+    "relUrl": "/#material-de-cursada"
+  },"13": {
+    "doc": "Inicio",
+    "title": "Inicio",
+    "content": " ",
+    "url": "/intro-datos/",
+    
+    "relUrl": "/"
+  },"14": {
+    "doc": "Intro a R",
+    "title": "Intro a R",
+    "content": " ",
+    "url": "/intro-datos/docs/introduccion_python/intro_R.html",
+    
+    "relUrl": "/docs/introduccion_python/intro_R.html"
+  },"15": {
+    "doc": "Intro a Python",
+    "title": "Intro a Python",
+    "content": " ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_estadistica.html",
+    
+    "relUrl": "/docs/prob_estadistica/intro_estadistica.html"
+  },"16": {
+    "doc": "Introducción a probabilidad",
+    "title": "Introducción a probabilidad",
+    "content": " ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html"
+  },"17": {
+    "doc": "Introducción a probabilidad",
+    "title": "Tabla de Contenidos",
+    "content": ". | Técnicas de Conteo . | Principio de Multiplicación | Número Factorial | Variaciones (orden importa) | Número Combinatorio (orden no importa) | Muestreo con y sin reposición | . | Espacios Muestrales y Eventos | Axiomas de Probabilidad . | Propiedades derivadas | Espacios equiprobables | . | Probabilidad Condicional . | Teorema de Multiplicación | Teorema de Probabilidad Total | Teorema de Bayes | . | Independencia | Variables Aleatorias Discretas . | Función de probabilidad puntual | Función de distribución acumulada | . | Distribuciones Discretas . | Bernoulli — $X \\sim \\text{Ber}(p)$ | Binomial — $X \\sim \\text{Bi}(n, p)$ | Geométrica — $X \\sim G(p)$ | Hipergeométrica — $X \\sim H(n, N, D)$ | Poisson — $X \\sim \\text{Po}(\\lambda)$ | . | Variables Aleatorias Continuas . | Función de densidad | Distribución Uniforme — $X \\sim U(a, b)$ | . | Esperanza y Varianza de Sumas | . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#tabla-de-contenidos",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#tabla-de-contenidos"
+  },"18": {
+    "doc": "Introducción a probabilidad",
+    "title": "Técnicas de Conteo",
+    "content": "Principio de Multiplicación . Si hay $m$ maneras de hacer la tarea 1 y $n$ maneras de hacer la tarea 2, entonces ambas tareas combinadas pueden hacerse de $m \\cdot n$ formas. Número Factorial . Dados $n$ objetos distintos, la cantidad de formas de ordenarlos es: . \\[n! = n \\cdot (n-1) \\cdot \\ldots \\cdot 2 \\cdot 1\\] Variaciones (orden importa) . Cantidad de formas de elegir ordenadamente $m$ objetos entre $n$: . \\[V(n, m) = n \\cdot (n-1) \\cdots (n-m+1) = \\frac{n!}{(n-m)!}\\] Número Combinatorio (orden no importa) . Cantidad de formas de elegir $m$ objetos entre $n$ sin importar el orden: . \\[\\binom{n}{m} = \\frac{n!}{m!(n-m)!}\\] Muestreo con y sin reposición . | Tipo | Resultados posibles | . | Con reposición (k-upla ordenada) | $n^k$ | . | Sin reposición (k-upla ordenada) | $n \\cdot (n-1) \\cdots (n-k+1)$ | . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#t%C3%A9cnicas-de-conteo",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#técnicas-de-conteo"
+  },"19": {
+    "doc": "Introducción a probabilidad",
+    "title": "Espacios Muestrales y Eventos",
+    "content": "Espacio muestral $\\Omega$: conjunto de todos los posibles resultados de un experimento. Evento: subconjunto de $\\Omega$. Evento simple: subconjunto con un único elemento. Operaciones entre eventos (heredadas de teoría de conjuntos): . | Unión: $A \\cup B$ | Intersección: $A \\cap B$ | Complemento: $A^c$ | Leyes de De Morgan: $(A \\cup B)^c = A^c \\cap B^c$ y $(A \\cap B)^c = A^c \\cup B^c$ | . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#espacios-muestrales-y-eventos",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#espacios-muestrales-y-eventos"
+  },"20": {
+    "doc": "Introducción a probabilidad",
+    "title": "Axiomas de Probabilidad",
+    "content": "Una función $P$ es una probabilidad si cumple: . | A1 $P(A) \\geq 0$ para todo evento $A$ | A2 $P(\\Omega) = 1$ | A3 Si $A \\cap B = \\emptyset$, entonces $P(A \\cup B) = P(A) + P(B)$ | . Propiedades derivadas . | $P(\\emptyset) = 0$ | $0 \\leq P(A) \\leq 1$ | $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ | $P(A^c) = 1 - P(A)$ | . Espacios equiprobables . Si todos los eventos simples tienen igual probabilidad: . \\[P(A) = \\frac{\\#A}{\\#\\Omega}\\] . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#axiomas-de-probabilidad",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#axiomas-de-probabilidad"
+  },"21": {
+    "doc": "Introducción a probabilidad",
+    "title": "Probabilidad Condicional",
+    "content": "Dado $P(B) &gt; 0$, la probabilidad de $A$ dado que ocurrió $B$: . \\[P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}\\] Teorema de Multiplicación . \\[P(A \\cap B) = P(A \\mid B) \\cdot P(B)\\] Teorema de Probabilidad Total . Si $A_1, \\ldots, A_k$ es una partición de $\\Omega$: . \\[P(B) = \\sum_{i=1}^{k} P(B \\mid A_i) \\cdot P(A_i)\\] Teorema de Bayes . \\[P(A_j \\mid B) = \\frac{P(B \\mid A_j) \\cdot P(A_j)}{P(B)}\\] . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#probabilidad-condicional",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#probabilidad-condicional"
+  },"22": {
+    "doc": "Introducción a probabilidad",
+    "title": "Independencia",
+    "content": "$A$ y $B$ son independientes si: . \\[P(A \\cap B) = P(A) \\cdot P(B)\\] Equivalentemente (cuando $P(B) &gt; 0$): $P(A \\mid B) = P(A)$. Propiedades: si $A$ y $B$ son independientes, también lo son $A$ y $B^c$, $A^c$ y $B$, $A^c$ y $B^c$. ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#independencia",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#independencia"
+  },"23": {
+    "doc": "Introducción a probabilidad",
+    "title": "Variables Aleatorias Discretas",
+    "content": "Una variable aleatoria es una función $X: \\Omega \\to \\mathbb{R}$. Es discreta si su rango $R_X$ es finito o numerable. Función de probabilidad puntual . \\[p_X(x) = P(X = x)\\] Propiedades: $p_X(x) \\geq 0$ y $\\sum_{x \\in R_X} p_X(x) = 1$. Función de distribución acumulada . \\[F_X(x) = P(X \\leq x) = \\sum_{y \\leq x,\\, y \\in R_X} p_X(y)\\] Es monótona no decreciente, continua a derecha, con $\\lim_{x \\to -\\infty} F_X(x) = 0$ y $\\lim_{x \\to +\\infty} F_X(x) = 1$. ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#variables-aleatorias-discretas",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#variables-aleatorias-discretas"
+  },"24": {
+    "doc": "Introducción a probabilidad",
+    "title": "Distribuciones Discretas",
+    "content": "Bernoulli — $X \\sim \\text{Ber}(p)$ . Un único ensayo con éxito (1) o fracaso (0): . \\[P(X = 1) = p, \\quad P(X = 0) = 1-p\\] Binomial — $X \\sim \\text{Bi}(n, p)$ . Cantidad de éxitos en $n$ ensayos de Bernoulli independientes: . \\[P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}\\] Geométrica — $X \\sim G(p)$ . Número de repeticiones hasta el primer éxito: . \\[P(X = k) = (1-p)^{k-1} p\\] Hipergeométrica — $X \\sim H(n, N, D)$ . Cantidad de defectuosos en una muestra de $n$ extraída sin reposición de una población de $N$ con $D$ defectuosos: . \\[P(X = k) = \\frac{\\binom{D}{k}\\binom{N-D}{n-k}}{\\binom{N}{n}}\\] Poisson — $X \\sim \\text{Po}(\\lambda)$ . \\[P(X = k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}, \\quad k \\in \\mathbb{N}\\] . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#distribuciones-discretas",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#distribuciones-discretas"
+  },"25": {
+    "doc": "Introducción a probabilidad",
+    "title": "Variables Aleatorias Continuas",
+    "content": "Una variable es continua si entre dos valores de su rango hay infinitos valores posibles. No tiene función de probabilidad puntual; se describe mediante una función de densidad $f$. Función de densidad . $f$ es densidad de $X$ si: . | $f(x) \\geq 0$ | $\\int_{\\mathbb{R}} f(x)\\,dx = 1$ | $P(X \\in (a, b)) = \\int_a^b f(x)\\,dx$ | . La densidad es la función que aproxima al histograma de frecuencia relativa de la variable. Distribución Uniforme — $X \\sim U(a, b)$ . \\[f_X(x) = \\frac{1}{b-a}, \\quad a \\leq x &lt; b\\] . ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#variables-aleatorias-continuas",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#variables-aleatorias-continuas"
+  },"26": {
+    "doc": "Introducción a probabilidad",
+    "title": "Esperanza y Varianza de Sumas",
+    "content": "Para $X_1, \\ldots, X_n$ variables aleatorias: . \\[E\\!\\left(\\sum X_i\\right) = \\sum E(X_i)\\] Si además son independientes: . \\[\\text{Var}\\!\\left(\\sum X_i\\right) = \\sum \\text{Var}(X_i)\\] Para $n$ variables i.i.d. con media $\\mu$ y varianza $\\sigma^2$, definiendo $S_n = \\sum X_i$ y $\\bar{X}_n = S_n/n$: . \\[E(S_n) = n\\mu, \\quad \\text{Var}(S_n) = n\\sigma^2\\] \\[E(\\bar{X}_n) = \\mu, \\quad \\text{Var}(\\bar{X}_n) = \\frac{\\sigma^2}{n}\\] ",
+    "url": "/intro-datos/docs/prob_estadistica/intro_probabilidad.html#esperanza-y-varianza-de-sumas",
+    
+    "relUrl": "/docs/prob_estadistica/intro_probabilidad.html#esperanza-y-varianza-de-sumas"
+  },"27": {
+    "doc": "Intro a Python",
+    "title": "Intro a Python",
+    "content": " ",
+    "url": "/intro-datos/docs/introduccion_python/intro_python.html",
+    
+    "relUrl": "/docs/introduccion_python/intro_python.html"
   }
 }

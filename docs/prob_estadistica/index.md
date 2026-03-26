@@ -1,13 +1,12 @@
 ---
-title: Introducción a Python
-layout: default
-nav_order: 2
+title: Conceptos de probabilidad y estadística
+nav_order: 3
 has_children: true
 ---
 
-# Introducción a Python
+# Introducción a probabilidad y estadística
 
 
 
 ---
-[↑ Volver al índice](.).{: .btn .btn-outline }
+[↑ Volver al índice](..){: .btn .btn-outline }
