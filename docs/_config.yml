@@ -8,7 +8,7 @@ remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
 kramdown:
   parse_block_html: true
-  math_engine: katex
+  math_engine: null
 
 
 math: katex
