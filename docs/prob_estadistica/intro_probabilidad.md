@@ -1,7 +1,7 @@
 ---
 title: Introducción a probabilidad
 layout: default
-parent: Conceptos de probabilidad y estadística
+parent: Probabilidad y estadística
 nav_order: 1
 has_toc: true
 ---
@@ -354,6 +354,7 @@ $$E(S_n) = n\mu, \quad \text{Var}(S_n) = n\sigma^2$$
 
 $$E(\bar{X}_n) = \mu, \quad \text{Var}(\bar{X}_n) = \frac{\sigma^2}{n}$$
 
-
+---
+[↑ Volver al índice](./index.md){: .btn .btn-outline }
 
 

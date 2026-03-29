@@ -1,12 +1,12 @@
 ---
 title: Introducción a la estadistica
 layout: default
-parent: Conceptos de probabilidad y estadística
+parent: Probabilidad y estadística
 nav_order: 2
 has_toc: true
 ---
 
-# Introducción a probabilidad
+# Introducción a estadística
 {: .no_toc }
 
 ## Tabla de Contenidos
@@ -19,3 +19,5 @@ has_toc: true
 
 ## ¿Qué es la estadística?
 
+---
+[↑ Volver al índice](./index.md){: .btn .btn-outline }

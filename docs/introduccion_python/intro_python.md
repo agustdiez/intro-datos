@@ -1,7 +1,7 @@
 ---
-title: Introducción a Python
+title: Intro a Python
 layout: default
-parent: Introducción a Python
+parent: Introducción a programación
 nav_order: 1
 has_toc: true
 ---
@@ -19,3 +19,6 @@ has_toc: true
 ---
 
 ## lenguaje de programacion
+
+---
+[↑ Volver al índice](./index.md){: .btn .btn-outline }

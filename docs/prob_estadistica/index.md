@@ -1,7 +1,8 @@
 ---
-title: Conceptos de probabilidad y estadística
+title: Probabilidad y estadística
 nav_order: 3
 has_children: true
+has_toc: False
 ---
 
 # Introducción a probabilidad y estadística
@@ -13,9 +14,5 @@ has_children: true
 - [P-Valor, una aplicación práctica](aplicacion_p_valor.md) - Conceptos de p-value y para qué se usa
 
 
-## Referencias
-
-Se indica un listado de bibliografía o libros de consulta
-
 ---
-[↑ Volver al índice](.){: .btn .btn-outline }
+[↑ Volver al inicio](../index.md){: .btn .btn-outline }

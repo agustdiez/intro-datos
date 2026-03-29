@@ -15,4 +15,4 @@ has_toc: False
 - [Ejercicios prácticos](ejercicios.md) - Algunos ejercicios para practicar
 
 ---
-[↑ Volver al índice](.).{: .btn .btn-outline }
+[↑ Volver al inicio](../index.md){: .btn .btn-outline }

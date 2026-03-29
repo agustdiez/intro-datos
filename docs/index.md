@@ -21,6 +21,8 @@ El curso CB050 - LAGOS tiene las siguientes características:
 
 La comunicación y consultas referidas al avance de la materia se realizan en el Slack de la materia, compartido en la primer clase. En caso de no disponer del enlace, enviar correo con nombre y apellido a introcienciadedatos.fiuba@gmail.com
 
+{: .important}
+>El presentismo en el curso es obligatorio (presencial o virtual). Se debe acceder a las reuniones con nombre y apellido, sin excepción.
 
 
 ## Contenido del sitio (en curso)
