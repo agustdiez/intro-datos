@@ -1,7 +1,7 @@
 ---
 title: P-Value: una aplicación práctica
 layout: default
-parent: Probabilidad y estadística
+parent: Probabilidad y estadistica
 nav_order: 3
 has_toc: true
 ---

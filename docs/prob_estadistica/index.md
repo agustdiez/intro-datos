@@ -1,5 +1,5 @@
 ---
-title: Probabilidad y estadística
+title: Probabilidad y estadistica
 nav_order: 3
 has_children: true
 has_toc: False

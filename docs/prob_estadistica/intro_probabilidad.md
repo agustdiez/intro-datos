@@ -1,7 +1,7 @@
 ---
 title: Introducción a probabilidad
 layout: default
-parent: Probabilidad y estadística
+parent: Probabilidad y estadistica
 nav_order: 1
 has_toc: true
 ---
