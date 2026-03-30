@@ -41,7 +41,7 @@ Supongamos que un experimento sea tirar un dado.
 
 En ese caso, el espacio muestral $\Omega$ se comprende de cada número del 1 al 6. Un evento simple sería el `4` por ejemplo.
 
-Los espacios muestrales no tienen que ser necesariamente discretos. Si nuestro experimento es [Precio del barril de petroleo], el espacio muestral estaría comprendido por los números positivos.
+Los espacios muestrales no tienen que ser necesariamente discretos. Si nuestro experimento es `[Precio del barril de petroleo]`, el espacio muestral estaría comprendido por los números positivos.
 
 ### Frecuencia relativa
 
@@ -55,7 +55,7 @@ $$f_A = \text{Frecuencia Relativa de } A = \frac{\text{cantidad de veces que ocu
 
 Si repetimos el experimento $n$ veces (>30), el teorema de la frecuencia relativa nos permite aproximar la probabilidad a dicha frecuencia.
 
-Podemos entender entonces a la probabilidad de forma intituiva como la frecuencia relativa del evento.
+Podemos entender entonces a la probabilidad de forma intituiva como la frecuencia relativa del evento dentro de una repetición grande del experimento.
 
 ---
 
@@ -96,6 +96,8 @@ Estas propiedades se pueden deducir de los axiomas, pero no se expondrá su dedu
 Si todos los eventos simples tienen igual probabilidad:
 
 $$P(A) = \frac{\#A}{\#\Omega}$$
+
+El $\#$ nos indica la cantidad de elementos.
 
 ---
 
@@ -259,7 +261,11 @@ $$\binom{8}{3} = \frac{8!}{3! \cdot 5!} = \frac{8 \cdot 7 \cdot 6}{3 \cdot 2 \cd
 
 ## Variables aleatorias. ¿Qué son?
 
+Entendamos en este curso a una variable aleatoria como un valor numérico que está afectado por el azar. Definida una variable (supongamos `altura de adolescentes de 16 a 18 años`), no es posible conocer con certeza que valor tomará hasta ser medida, pero sí sabemos que existirá una distribución de probabilidad asociada al conjunto de valores posibles (el $\Omega$ definido en los apartados anteriores). 
 
+Sin saber aún lo que es una distribución, es natural pensar que es raro que alguien de esa edad mida 190cm como también lo sería que mida 50cm. La variable a medir ya nos presupone a anticipar valores esperados de la variable.
+
+Tenemos de dos tipos en función de su naturaleza: **discretas o continuas**.
 
 ## Variables Aleatorias Discretas
 
@@ -316,6 +322,9 @@ $$P(X = k) = \frac{\binom{D}{k}\binom{N-D}{n-k}}{\binom{N}{n}}$$
 
 $$P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k \in \mathbb{N}$$
 
+Todas estas distribuciones se explican aplicando lo visto en librerías en la notebook de ejercitación. Ver [Notebooks](../notebooks/index.md) para detalle.
+
+
 ---
 
 ## Variables Aleatorias Continuas
@@ -336,23 +345,66 @@ La densidad es la función que aproxima al histograma de frecuencia relativa de 
 
 $$f_X(x) = \frac{1}{b-a}, \quad a \leq x < b$$
 
+
+### Normal — $X \sim \mathcal{N}(\mu, \sigma^2)$
+
+La distribución más importante para que recuerden. Su densidad tiene forma de campana simétrica centrada en $\mu$.
+
+$$f_X(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+
+- $\mu$ controla el centro de la campana.
+- $\sigma$ controla el ancho: mayor $\sigma$ → más achatada.
+
+{: .important}
+> La Normal es el resultado asintótico del TCL: la media muestral de cualquier población se aproxima a una Normal cuando $n$ crece.
+
+### Exponencial — $X \sim \text{Exp}(\lambda)$
+
+Modela el tiempo de espera hasta el primer evento de un proceso de Poisson. Es la versión continua de la Geométrica.
+
+$$f_X(x) = \lambda e^{-\lambda x}, \quad x \geq 0$$
+
+- Mayor $\lambda$ → eventos más frecuentes → tiempos de espera más cortos.
+- Media: $E(X) = 1/\lambda$
+
 ---
 
-## Esperanza y Varianza de Sumas
+## Esperanza y Varianza
 
-Para $X_1, \ldots, X_n$ variables aleatorias:
+La **esperanza** de una variable aleatoria es su valor promedio teórico, ponderado por las probabilidades. Intuitivamente, es el valor que esperaríamos obtener si repitiéramos el experimento muchas veces.
 
-$$E\!\left(\sum X_i\right) = \sum E(X_i)$$
+Para variables **discretas**:
 
-Si además son independientes:
+$$E(X) = \sum_{x \in R_X} x \cdot p_X(x)$$
 
-$$\text{Var}\!\left(\sum X_i\right) = \sum \text{Var}(X_i)$$
+Para variables **continuas**:
 
-Para $n$ variables i.i.d. con media $\mu$ y varianza $\sigma^2$, definiendo $S_n = \sum X_i$ y $\bar{X}_n = S_n/n$:
+$$E(X) = \int_{-\infty}^{\infty} x \cdot f_X(x)\,dx$$
 
-$$E(S_n) = n\mu, \quad \text{Var}(S_n) = n\sigma^2$$
+La **varianza** mide la dispersión respecto a la esperanza:
 
-$$E(\bar{X}_n) = \mu, \quad \text{Var}(\bar{X}_n) = \frac{\sigma^2}{n}$$
+$$\text{Var}(X) = E\!\left[(X - E(X))^2\right]$$
+
+Que puede calcularse también como:
+
+$$\text{Var}(X) = E(X^2) - [E(X)]^2$$
+
+**Propiedades útiles** para $a, b$ constantes:
+
+- $E(aX + b) = aE(X) + b$
+- $\text{Var}(aX + b) = a^2\,\text{Var}(X)$
+
+
+
+| Distribución | $E(X)$ | $\text{Var}(X)$ |
+|---|---|---|
+| $\text{Ber}(p)$ | $p$ | $p(1-p)$ |
+| $\text{Bi}(n,p)$ | $np$ | $np(1-p)$ |
+| $G(p)$ | $1/p$ | $(1-p)/p^2$ |
+| $\text{Po}(\lambda)$ | $\lambda$ | $\lambda$ |
+| $U(a,b)$ | $(a+b)/2$ | $(b-a)^2/12$ |
+| $\mathcal{N}(\mu,\sigma^2)$ | $\mu$ | $\sigma^2$ |
+| $\text{Exp}(\lambda)$ | $1/\lambda$ | $1/\lambda^2$ |
 
 ---
 [↑ Volver al índice](./index.md){: .btn .btn-outline }

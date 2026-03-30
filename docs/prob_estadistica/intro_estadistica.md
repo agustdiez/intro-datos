@@ -113,6 +113,13 @@ La media, varianza y desvío estándar de una lista $x_1, \ldots, x_n$ son:
 
 $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i \qquad \text{Var} = \frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})^2 \qquad \text{DE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})^2}$$
 
+### Otros parámetros poblacionales:
+
+- Mediana: valor que divide la distribución en dos mitades iguales.
+- Percentiles/cuantiles: la mediana sería un cuantil 50.
+- Moda: valor más frecuente.
+
+
 ---
 
 ## Muestreo Aleatorio Simple (MAS)
@@ -186,30 +193,43 @@ $\bar{x}$ (e.g., $\$800.000$). Ya no es aleatorio: es la realización del estima
 
 
 
-## Distribución asintótica de la media muestral
+## ¿Qué distribución sigue la media muestral?
 
-Para $X_1, \ldots, X_n$ i.i.d., la distribución de $\bar{X}$:
-1. Está centrada en $\mu_X$ para cualquier $n$.
-2. Tiene varianza $\sigma^2_X / n$ que tiende a $0$ cuando $n \to \infty$.
+Sabemos que $\bar{X}$ es un buen estimador de $\mu_X$, pero surge conocer cuál es la distribución que sigue el estimador:
+**¿qué tan cerca cae $\bar{X}$ de $\mu_X$ en la práctica?** ¿Y qué forma tiene su
+distribución? 
 
 ### Ley de los Grandes Números (LGN)
 
-Si $X_1, \ldots, X_n$ son i.i.d. con esperanza $\mu_X$, entonces para cualquier $\varepsilon > 0$:
+El primero responde **qué pasa con $\bar{X}$ cuando $n$ crece**: garantiza que el
+estimador converge al parámetro verdadero. Es decir, muestrear más siempre ayuda.
+
+Si $X_1, \ldots, X_n$ son i.i.d. (independientes e identicamente distribuidas) con esperanza $\mu_X$, entonces para cualquier $\varepsilon > 0$:
 
 $$P\!\left(\left|\bar{X} - \mu_X\right| < \varepsilon\right) \xrightarrow{n \to \infty} 1$$
 
-> **Interpretación:** con muestras grandes, la media muestral cae cerca de la media poblacional con probabilidad muy alta. Si repitiéramos el experimento de muestrear $M = 100\,000$ veces, en la gran mayoría de los casos obtendríamos $\bar{X} \approx \mu_X$.
+> **Interpretación:** con muestras grandes, la media muestral cae cerca de la media
+> poblacional con probabilidad muy alta. Si repitiéramos el muestreo $M = 100\,000$
+> veces, en la gran mayoría de los casos obtendríamos $\bar{X} \approx \mu_X$.
 
 ### Teorema Central del Límite (TCL)
 
+La LGN dice que $\bar{X}$ se acerca a $\mu_X$, pero no dice **con qué forma**. El TCL completa el cuadro: nos dice que esa distribución es aproximadamente Normal, lo que permite construir intervalos de confianza y hacer inferencia sin conocer la distribución original de la población.
+
 {: .important}
-> Para $n$ grande, independientemente de la distribución de las $X_i$, la media muestral estandarizada se aproxima a una Normal estándar:
+> Para $n$ grande, independientemente de la distribución de las $X_i$:
 
 $$Z = \frac{\bar{X} - \mu_X}{\sigma_X / \sqrt{n}} \xrightarrow{d} \mathcal{N}(0, 1)$$
 
-Equivalentemente: $\bar{X} \underset{\text{aprox}}{\sim} \mathcal{N}\!\left(\mu_X,\, \frac{\sigma^2_X}{n}\right)$ para $n$ suficientemente grande (regla práctica: $n \geq 30$).
+Equivalentemente: $\bar{X} \underset{\text{aprox}}{\sim} \mathcal{N}\!\left(\mu_X,\,
+\frac{\sigma^2_X}{n}\right)$ para $n$ suficientemente grande (regla práctica: $n \geq 30$).
 
-> **Por qué importa:** el TCL permite calcular probabilidades sobre $\bar{X}$ sin conocer la distribución original de la población. Es el fundamento de la mayoría de los procedimientos de inferencia.
+### ¿En qué contexto entra la ciencia de datos?
+
+Veremos más adelante que los modelos se entrenan y se computan métricas de error promedio (MSE, MAE) sobre un conjunto de test, y ese promedio es una media muestral. El TCL garantiza que ese estimador del error verdadero es aproximadamente Normal, lo que permite construir intervalos de confianza para el error y comparar modelos con rigor estadístico.
+
+En este caso, las $X_i$ son los errores de individuales que calculamos en cada conjunto de test, y validamos tener $X_i$ i.i.d, por lo que podemos aproximar la distribución de la media del error a una $N(0,1)$
+
 
 ---
 
