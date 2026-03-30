@@ -21,5 +21,5 @@ La tabla de este sitio se irá poblando a medida que se avance en el cuatrimestr
 
 | Notebook | Notebook | Colab |
 |--------|----------|-------|
-| Introducción a Python y librerias | [⬇ Descargar](https://drive.google.com/uc?export=download&id=1jYj6d8W6GvxgBpgmZWm1jtQ-jSzTpk25) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jYj6d8W6GvxgBpgmZWm1jtQ-jSzTpk25) |
-| Probabilidad y estadística: aplicaciones | [⬇ Descargar](https://drive.google.com/uc?export=download&1jqhf4mfcHBI5m9h-3Jbn_cruyhhEh8US) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jqhf4mfcHBI5m9h-3Jbn_cruyhhEh8US) |
+| Introducción a Python y librerias | [⬇ Descargar](https://drive.google.com/uc?export=download&id=187dpc6uk_H82p2_DDH-M4EGNQAbMyG1W) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/187dpc6uk_H82p2_DDH-M4EGNQAbMyG1W) |
+| Probabilidad y estadística: aplicaciones | [⬇ Descargar](https://drive.google.com/uc?export=download&1jYj6d8W6GvxgBpgmZWm1jtQ-jSzTpk25) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jYj6d8W6GvxgBpgmZWm1jtQ-jSzTpk25) |
