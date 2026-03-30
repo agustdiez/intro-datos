@@ -24,6 +24,12 @@ La comunicación y consultas referidas al avance de la materia se realizan en el
 {: .important}
 >El presentismo en el curso es obligatorio (presencial o virtual). Se debe acceder a las reuniones con nombre y apellido, sin excepción.
 
+## Docentes
+
+- Marina Lagos
+- Agustín Diez
+- Lucas Trevisani
+
 
 ## Contenido del sitio (en curso)
 
