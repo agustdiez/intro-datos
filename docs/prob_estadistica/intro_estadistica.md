@@ -64,10 +64,10 @@ El objetivo de la inferencia estadística es sacar conclusiones sobre algún par
 
 
 
-- **Test de hipótesis**: evaluar la evidencia a favor o en contra de una hipótesis sobre el parámetro (e.g., ¿la proporción de hogares con ingreso menor a $50\,000$ es $\geq 0{,}9$?).
+- **Test de hipótesis**: evaluar la evidencia a favor o en contra de una hipótesis sobre el parámetro (por ejemplo, ¿la proporción de hogares con ingreso menor a $50\,000$ es $\geq 0{,}9$?).
 
 {: .important}
->Para una aproximación a este problema, ver [Aplicacion P-Value](aplicacion_p_valor.md)
+>Para una aproximación a este problema, ver [Aplicacion P-Value](./p_valor.md)
 
 ---
 

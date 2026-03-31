@@ -63,7 +63,7 @@ Podemos entender entonces a la probabilidad de forma intituiva como la frecuenci
 
 De lo expuesto, podemos desprender ciertos axiomas de la probabilidad, que los podemos interpretar para cada ejemplo que se les ocurra en un espacio de eventos.
 
-{. important}
+{: .important}
 >Los axiomas de probabilidad son las condiciones mínimas que deben verificarse para que una función definida sobre un conjunto de sucesos determine consistentemente sus probabilidades.
 
 
@@ -97,7 +97,7 @@ Si todos los eventos simples tienen igual probabilidad:
 
 $$P(A) = \frac{\#A}{\#\Omega}$$
 
-El $\#$ nos indica la cantidad de elementos.
+El numeral nos indica la cantidad de elementos presentes.
 
 ---
 
