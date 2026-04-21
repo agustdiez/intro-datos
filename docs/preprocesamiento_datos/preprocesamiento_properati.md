@@ -256,7 +256,7 @@ df['fecha'] = pd.to_datetime(df['fecha'], format='%Y-%m-%d', errors='coerce')
 
 El parámetro `errors='coerce'` convierte valores que no puedan parsearse en `NaT` (equivalente a `NaN` para fechas) en lugar de lanzar un error.
 
-{. :important}
+{: .important}
 > El formato del string de fecha puede validarse acá: [strftime(); strptime()](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior)
 
 #### Extracción de componentes
